@@ -10,9 +10,9 @@ const DEFAULT_PROXY_IP = atob("UHJveHlJUC5VUy5DTUxpdXNzc3MubmV0");  //可修改�
 const DEFAULT_SUB_DOMAIN = atob("c3ViLmNtbGl1c3Nzcy5uZXQ=");  //可修改自定义的sub订阅器
 const PROXY_CHECK_URL = "https://kaic.hidns.co/";  //可修改自定义的proxyip检测站
 const DEFAULT_CONVERTER = atob("aHR0cHM6Ly9zdWJhcGkuY21saXVzc3NzLm5ldA==");  //可修改自定义后端api
-const CLASH_CONFIG = atob("aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2NtbGl1L0FDTDRTU1IvbWFpbi9DbGFzaC9jb25maWcvQUNMNFNTUl9PbmxpbmVfRnVsbF9NdWx0aU1vZGUuaW5p"); //可修改自定义订阅配置转换ini
-const SINGBOX_CONFIG_V12 = atob("aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3NpbnNwaXJlZC9zdWItc3RvcmUtdGVtcGxhdGUvbWFpbi8xLjEyLngvc2luZy1ib3guanNvbg=="); //禁止修改 优先使用1.12 后用1.11
-const SINGBOX_CONFIG_V11 = atob("aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3NpbnNwaXJlZC9zdWItc3RvcmUtdGVtcGxhdGUvbWFpbi8xLjExLngvc2luZy1ib3guanNvbg=="); //禁止修改
+const CLASH_CONFIG = https://raw.githubusercontent.com/TokizakiAki/rule/refs/heads/main/rule_clash_meta.ini; //可修改自定义订阅配置转换ini
+const SINGBOX_CONFIG_V12 = "https://raw.githubusercontent.com/sinspired/sub-store-template/main/1.12.x/sing-box.json"; //禁止修改 优先使用1.12 后用1.11
+const SINGBOX_CONFIG_V11 = "https://raw.githubusercontent.com/sinspired/sub-store-template/main/1.11.x/sing-box.json"; //禁止修改
 const TG_BOT_TOKEN = ""; //你的机器人token
 const TG_CHAT_ID = "";  //你的TG ID
 const ADMIN_IP   = "";  //你的白名单IP 保护你不会被自己域名拉黑 (支持多IP，IPV4跟IPV6 使用英文逗号分隔)
